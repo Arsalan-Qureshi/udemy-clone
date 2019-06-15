@@ -1,0 +1,74 @@
+hr{
+    margin: 0;
+}
+
+
+a:hover{
+    text-decoration: none;
+    color: #00576b;
+  }
+.footer-v6 footer {
+    background-color: #fff;
+    color: #a1a7b3;
+    font-size: 13px;
+    line-height: 18px;
+    width: 100%;
+    display: block;
+
+
+}
+
+.footer-v6 .footer__bottom--ia .footer__bottom__copyright, .footer-v6 .footer__bottom--ia .footer__bottom__links, .footer-v6 .footer__bottom--ia .footer__bottom__locale-selector {
+    align-content: center;
+
+}
+
+.container-flex .row {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -.5rem;
+    margin-left: -.5rem;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+.ufb-logo{
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.footer__copyright{
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+ul .links .list-inline{
+    display: inline;
+}
+
+/* span{
+    margin-top: 20px;
+} */
+
+.footer__bottom__links ul li a{
+    text-align: center;
+    vertical-align: center;
+    margin-top: 20px;
+    position:relative;
+}

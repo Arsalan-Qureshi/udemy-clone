@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+#add-answer:hover{
+  text-decoration: none;
+  color: hsl(191, 79%, 28%);
+  transition: ease-in linear
+}

@@ -1,0 +1,14 @@
+.search{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-custom{
+    background-color: #06768f; 
+}
+
+.btn-custom:hover,
+.btn-custom:active
+{
+  background-color: #00576b; 
+}

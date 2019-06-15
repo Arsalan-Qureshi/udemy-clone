@@ -1,0 +1,28 @@
+span{
+  align-content: center;
+  vertical-align: middle;
+}
+
+i{
+  position: relative;
+  vertical-align: middle;
+
+}
+
+.my-btn{
+  color: gray;
+}
+
+.my-btn:hover{
+  background: rgba(209, 209, 209, 0.582);
+  color:gray;
+}
+
+.fa-bell-o{
+  color: gray;
+}
+
+.small-circle{
+  width: 24px;
+  height: 24px;
+}

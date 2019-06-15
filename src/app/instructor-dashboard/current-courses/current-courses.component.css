@@ -1,0 +1,47 @@
+.headingCourse{
+    color:black;
+    text-transform: capitalize;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+#mouse_over{
+  opacity: 0;
+}
+
+.hover-over:hover{
+  background: rgba(255,255,255,0.7);
+  opacity: 0.2;
+
+}
+#mouse_over:hover{
+  opacity: 1;
+  z-index: 99;
+  overflow: auto;
+ }
+
+.vertical-center {
+  -ms-transform: translateY(50%);
+  transform: translateY(60%);
+  transform: translateX(-190%);
+
+}
+
+
+
+
+div #edit>h4>a:hover{
+
+  display: block;
+}
+
+div #edit>h4>a{
+  display: block;
+  margin-top: 20px;
+}
+
+a {
+  color: #007791;
+  background-color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}

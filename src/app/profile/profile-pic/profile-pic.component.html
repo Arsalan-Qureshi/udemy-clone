@@ -1,0 +1,21 @@
+<app-side-nav></app-side-nav>
+<br><br><br><br>
+<section class="card">
+    <div class="container">
+        <h1>Profile & Settings</h1><br>
+        <app-navbar></app-navbar>
+        <br><br>
+        <div class="mydiv">
+            <img [src]="url" height="200" *ngIf="url"> <br/><br/>
+        </div>
+        <br>
+            <div>
+                    <label for="files" class="mybutton">Select Image</label>
+                    <input id="files" style="visibility:hidden;" type="file" (change)="onSelectFile($event)">
+                    <a type="button" class="btn mybutton" routerLink='/profile'>Save</a>
+            </div>
+      </div>
+</section>
+
+<app-page-footer></app-page-footer>
+<router-outlet></router-outlet>

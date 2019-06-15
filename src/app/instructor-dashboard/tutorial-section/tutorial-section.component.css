@@ -1,0 +1,23 @@
+
+  .heading-section{
+
+    margin-top: 40px;
+    margin-right: 50px;
+  }
+
+  .headingCourse{
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+a:hover{
+    text-decoration: none;
+    color: #00576b;
+  }
+
+
+.img-setting{
+      width:87%;
+      height: auto;
+      padding-left: 10px;
+}

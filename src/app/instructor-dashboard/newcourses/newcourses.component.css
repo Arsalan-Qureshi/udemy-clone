@@ -1,0 +1,17 @@
+.newcourse-btn{
+    color: white;
+    font-weight: bold;
+    background-color:#ec5252;
+}
+
+.newcourse-btn:hover{
+  color: white;
+  font-weight: bold;
+  background-color:#963131;
+}
+
+
+div{
+    float: right;
+}
+

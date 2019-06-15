@@ -1,0 +1,24 @@
+
+  .img-section3{
+    margin-left: 130px;
+      height: auto;
+      width: 30%;
+  }
+
+  .headingCourse2{
+    color:black;
+    text-transform: capitalize;
+    font-family: 'Oxygen', sans-serif;
+}
+
+  .heading-section2{
+    margin-right: 60px;
+
+  }
+
+  .heading{
+    color:black;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Oxygen', sans-serif;
+}

@@ -1,0 +1,84 @@
+.mainContent{
+  display: flex;
+  /* display: grid; */
+  /* grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 50px 50px;
+  padding: 30px 80px 20px 300px; */
+}
+
+.aaa {
+  display: inline; /* the default for span */
+  border: 1px solid black;
+  float: left;
+  /* width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: yellow;  */
+}
+
+.icon{
+  color: black;
+}
+.container {
+      display: flex;
+      /* grid-template-columns: 100px 100px 100px;
+      grid-template-rows: 50px 50px; */
+  }
+
+
+.filter {
+  background-color: rgb(24, 22, 22);
+  color:rgb(238, 223, 223);
+  display: inline;
+  font-size: 1em;
+  padding: 5px 0px 0px 0px;
+}
+
+.compose {
+  background-color: rgb(223, 213, 213);
+  color:rgb(17, 15, 15);
+  display: block;
+  font-size: 1em;
+  padding: 10px 10px 10px 10px;
+
+}
+.userListWrapper {
+  background-color: white;
+  color: #fff;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  flex: 1;
+  order: 1;
+  padding:30px 20px 40px 20px;
+  border-right: 1px solid #222;
+  border-left: 1px solid #222;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+}
+
+.feedWrapper {
+  background-color: #fff;
+  background: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  flex: 5;
+  order: 2;
+  overflow-y: scroll;
+  padding:30px 0px 0px 0px;
+  border-right: 1px solid #222;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+}
+
+
+#scroll-style::-webkit-scrollbar-track
+{
+border-radius: 10px;
+background-color: #F5F5F5;
+}
+
+app-user-list {
+  width: 500%;
+}

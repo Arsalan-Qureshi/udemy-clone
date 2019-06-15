@@ -1,0 +1,25 @@
+<div class="row">
+    <app-side-nav></app-side-nav>
+  <div class="col-lg-2 sidebar-container">
+  <app-side-bar></app-side-bar>
+  </div>
+
+  <div class="col-lg-10 chat-container">
+  <div class="nav-logos" align="right">
+    <app-all-users></app-all-users>
+  </div>
+
+  <div class=container>
+    <h1 id="gap">Messages</h1>
+    <a class='btn btn-light float-right' routerLink="/compose">Compose</a>
+    <br><br><br>
+    <app-chatroom></app-chatroom>
+    </div>
+    </div>
+
+    <div class="container-fluid footer-top">
+    <app-page-footer></app-page-footer>
+    </div>
+  </div>
+
+<router-outlet></router-outlet>
